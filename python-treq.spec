@@ -9,6 +9,7 @@ Group:		Development/Python
 BuildRequires:	python%{pyver}dist(pip)
 BuildRequires:	python%{pyver}dist(wheel)
 BuildRequires:	python%{pyver}dist(incremental)
+BuildRequires:	python%{pyver}dist(setuptools)
 BuildArch:	noarch
 
 %description

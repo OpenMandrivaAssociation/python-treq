@@ -1,6 +1,6 @@
 Name:		python-treq
-Version:	24.9.1
-Release:	3
+Version:	26.7.0
+Release:	1
 Source0:	https://files.pythonhosted.org/packages/source/t/treq/treq-%{version}.tar.gz
 Summary:	High-level Twisted HTTP Client API
 URL:		https://pypi.org/project/treq/
@@ -16,7 +16,7 @@ BuildArch:	noarch
 High-level Twisted HTTP Client API
 
 %prep
-%autosetup -p1 -n treq-%{version}
+%autosetup -p1 -n treq-26.7.0
 
 %build
 %py_build

@@ -4,12 +4,12 @@ Release:	1
 Source0:	https://files.pythonhosted.org/packages/source/t/treq/treq-%{version}.tar.gz
 Summary:	High-level Twisted HTTP Client API
 URL:		https://pypi.org/project/treq/
-License:	MIT/X
+License:	MIT
 Group:		Development/Python
 BuildRequires:	python%{pyver}dist(pip)
 BuildRequires:	python%{pyver}dist(wheel)
+BuildRequires:	python%{pyver}dist(hatchling)
 BuildRequires:	python%{pyver}dist(incremental)
-BuildRequires:	python%{pyver}dist(setuptools)
 BuildArch:	noarch
 
 %description
